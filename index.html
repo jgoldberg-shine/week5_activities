@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        /* CSS styles*/
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif; /* Set the font family*/
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            background-color: #f7f7f7; /* Set background color */
+            color: #333; /* Set text color */
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none; /* Remove list bullet points */
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+        }
+        nav ul li {
+            display: inline; /* Display list items horizontally */
+            margin-right: 20px; /* Add spacing between list items */
+        }
+        nav {
+            padding: 10px 20px; /* Add padding to the navigation bar */
+            border-bottom: 1px solid #ccc; /* Add bottom border */
+            background-color: #fff; /* Set background color */
+        }
+
+        /* Section styles */
+        section {
+            padding: 20px; /* Add padding to the sections */
+            background-color: #ffffff; /* Set background color */
+            margin: 20px; /* Add margin around sections */
+            border-radius: 5px; /* Add border radius for rounded corners */
+        }
+
+        /* Float container styles */
+        .float-container {
+            float: left; /* Float elements to the left */
+            margin-right: 20px; /* Add margin to create space between elements */
+        }
+
+        /* Link styles */
+        a {
+            text-decoration: none; /* Remove underline from links */
+            color: #007bff; /* Set link color */
+            transition: color 0.3s ease; /* Smooth transition for link color change */
+        }
+        a:hover {
+            color: #b32100; /* Change link color on hover */
+        }
+
+        /* Header styles */
+        h1 {
+            color: #333; /* Set header text color */
+        }
+        h2 {
+            color: #007bff; /* Set header text color */
+            margin-top: 20px; /* Add space above headers */
+        }
+        h3 {
+            color: #009688; /* Set header text color */
+            margin-top: 15px; /* Add space above headers */
+        }
+
+        /* Paragraph styles */
+        p {
+            line-height: 1.5; /* Set line height for paragraphs */
+        }
+
+        /* List styles */
+        ul {
+            margin-left: 20px; /* Add left margin for lists */
+            list-style-type: disc; /* Use disc bullets for lists */
+        }
+
+        /* Image styles */
+        img {
+            display: block; /* Make images block-level elements */
+            margin: 10px auto; /* Center images horizontally with margin */
+            max-width: 50%; /* Set maximum width for images */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            
+        }
+
+        /* Footer styles */
+        footer {
+            clear: both; /* Clear floats */
+            text-align: center; /* Align text to the center */
+            padding: 10px; /* Add padding to the footer */
+            background-color: #f7f7f7; /* Set background color */
+            border-top: 1px solid #ccc; /* Add top border */
+        }
+
+                /* Gold item style */
+                .gold {
+            color: #FFD700; /* Gold color */
+        }
+
+        /* Silver item style */
+        .silver {
+            color: #C0C0C0; /* Silver color */
+        }
+
+        /* Bronze item style */
+        .bronze {
+            color: #CD7F32; /* Bronze color */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li> <!-- Home link -->
+        <li><a href="portfolio.html">Portfolio</a></li> <!-- Portfolio link -->
+        <li><a href="contact.html">Contact</a></li> <!-- Contact link -->
+    </ul>
+</nav>
+
+<!-- Main content section -->
+<section>
+    <h1>Home</h1>
+
+    <h2>Introduction</h2>
+    <p>Hello, my name is Josh and I am currently on the Code Nations data analysis course. I have previously completed a PhD in 
+        chemical engineering and after that taught secondary school science for 7 years. I have 3 children, I enjoy playing electric
+        guitar, learning languages, traveling and cooking.</p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Qualified Teacher Status (QTS), gained July 2016</li>
+        <li>IT Skills MS Office – High level in excel</li>
+        <li>Data analysis – python/excel</li>
+        <li>Team work</li>
+        <li>Analytical</li>
+        <li>Languages: Hebrew (advanced), French (intermediate), Arabic (intermediate) and German (beginning)</li>
+    </ul>
+    
+    <div class="float-container">
+        <h2>Favorite Websites</h2>
+        <ul>
+            <li class="gold"><a href="https://10minutemail.com/" target="_blank">10minutemail</a></li>
+            <li class="silver"><a href="https://neal.fun/" target="_blank">neal.fun</a></li>
+            <li class="bronze"><a href="https://www.twitch.tv/" target="_blank">Twitch</a></li>
+        </ul>
+    </div>
+   
+    <div class="float-container">
+        <h2>Favorite Songs</h2>
+        <ul>
+            <li class="gold">Shine on You Crazy Diamond - Pink floyd</li>
+            <li class="silver">Deutschland - Rammstein</li>
+            <li class="bronze">Master of Puppets - Metallica</li>
+        </ul>
+    </div>
+
+    <div class="float-container">
+        <h2>Favorite Hobbies</h2>
+        <ul>
+            <li class="gold">Gaming</li>
+            <li class="silver">Playing guitar</li>
+            <li class="bronze">Learning new languages</li>
+        </ul>
+    </div>
+    <div style="clear: both;"></div> <!-- Clear float containers -->
+    
+    <h2>Places I Would Like to Visit</h2>
+    <h3>1. Iceland</h3>
+    <img src="iceland.jpg" alt="Northern lights over Iceland">
+    <p>To see the northern lights</p>
+    <h3>2. Abu Dhabi</h3>
+    <img src="AbuDhabi.jpg" alt="Northern lights over Iceland">
+    <p>To see an F1 race and practice Arabic at the same time</p>
+    <h3>3. Hawaii</h3>
+    <img src="MaunaKea.jpg" alt="Northern lights over Iceland">
+    <p>To visit the Mauna Kea observatories</p>
+</section>
+
+
+<footer>
+    <p>&copy; Josh Goldberg 2024</p>
+</footer>
+
+</body>
+</html>
